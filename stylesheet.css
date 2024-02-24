@@ -1,0 +1,134 @@
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+
+}
+
+.bg-custom-color {
+    background-color: #0c2d57;
+}
+
+.custom-text-color {
+    color: #efecec;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fc6736;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 20 px;
+}
+
+.menu ul li:last-child {
+    margin-right: 0;
+}
+
+.menu ul li a {
+    text-decoration: none !important;
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color: #efecec !important;
+}
+
+.menu ul li a:focus {
+    outline: none;
+}
+
+.menu-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.menu a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.border-h1 {
+    border: 2px solid #fc6736;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.border-h2 {
+    border: 2px solid #fc6736;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.paragraph-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.paragraph-container h3 {
+    align-self: flex-start;
+}
+
+.paragraph-container {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 25%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #fc6736;
+}
